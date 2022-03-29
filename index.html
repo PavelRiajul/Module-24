@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>js dom</h1>
+    </header>
+    <main>
+        <section>
+            <artical class="'blog">
+                <h3>My Awesome Blog-1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum facilis a enim sed libero pariatur cumque necessitatibus fugit, velit dolore!</p>
+            </artical>
+            <artical class="'blog">
+                <h3 id="second-title">My Awesome Blog-2</h3>
+                <p>Deserunt enim, rem dolorem, ad possimus odit sunt modi voluptates eligendi itaque explicabo ea! Ut cum a inventore in quos.</p>
+            </artical>
+            <artical class="'blog">
+                <h3>My Awesome Blog-3</h3>
+                <p>Vero rerum possimus a eaque accusamus ab voluptatum ad magnam unde culpa! Veniam est dolorum deleniti! Inventore facere iure fugiat!</p>
+            </artical>
+        </section>
+    </main>
+
+
+<script>
+   
+const blogs = document.getElementsByClassName('blog');
+for(const blog of blogs){
+    console.log(blog)
+}
+
+
+</script>
+
+<script src="./script.js"></script>
+    
+</body>
+</html>
