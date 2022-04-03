@@ -1,0 +1,6 @@
+let title = document.getElementById('title')
+console.log(title)
+let pavel = document.getElementsByClassName('lead')
+console.log(pavel)
+let  list = document.getElementsByTagName('li')
+console.log(list)
