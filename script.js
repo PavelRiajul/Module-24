@@ -1,3 +1,4 @@
-let paragraph = document.createElement('h1')
-console.log(paragraph)
-let heading = paragraph.textContent = "Riajul islam pavel"
+let btn = document.getElementById ('btn')
+btn.addEventListener('click', function (e) {
+    alert('Riajul islam pavel')
+})
