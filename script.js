@@ -1,4 +1,6 @@
-let btn = document.getElementById ('btn')
-btn.addEventListener('click', function (e) {
-    alert('Riajul islam pavel')
-})
+function dark(){
+    document.body.style.backgroundColor = 'black';
+}
+function light(){
+    document.body.style.backgroundColor = 'blue';
+}
