@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>banking</title>
+    <link rel="stylesheet" href="./banking.css">
+    
+</head>
+<body>
+    <h1>Lets get some Mooney</h1>
+    <section>
+        <div class="card">
+        <div class="box1">
+            <h3>Deposit</h3>
+            <h2 >$ <span id="deposit-total">00</span></h2>
+        </div>
+        <div class="box1">
+            <h3>Withdraw</h3>
+            <h2>$ <span id="withdraw-total">00</span></h2>
+        </div>
+        <div class="box1">
+            <h3>Balance</h3>
+            <h2>$ <span id="balance-total">1240</span></h2>
+        </div>
+        </div>
+    </section>
+
+    <section id="sec1">
+<h3>please Deposit</h3>
+<input id="deposit-input"  type="text" placeholder="$amount you want to deposit"> <br>
+<button id="deposit-submit">Deposit</button>
+    </section>
+    <section id="sec1">
+        <h3>please Withdraw</h3>
+        <input id="withdraw-input" type="text" placeholder="$amount you want to Withdraw"> <br>
+        <button id="withdraw-submit">Withdraw</button>
+            </section>
+
+
+<script src="./banking.js"></script>
+</body>
+</html>
